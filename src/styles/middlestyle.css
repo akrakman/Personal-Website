@@ -1,0 +1,20 @@
+/*.middlestyle p {
+  color: black;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.middlestyle a {
+    color: rgb(0, 0, 255);
+}
+
+.middlestyle a:hover,
+.middlestyle a:active {
+  text-decoration: underline;
+  text-decoration-thickness: 12%;
+}
+
+.middlestyle img {
+  page-break-inside: avoid;
+}
+*/

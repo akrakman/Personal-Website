@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:regular,bold,extra-bold,italic');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:regular,bold,italic');
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    min-height: 100%;
+    font-family: 'Open Sans';
+}
+
+.banner {
+    min-height: 120px;
+    background: radial-gradient(at top left, rgb(16, 123, 177) 0%, rgb(170, 193, 223) 100%);
+}
+
+.headercontainer {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.headercontainer > .left {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.headercontainer > .right {
+    vertical-align: middle;
+    display: table-cell;
+    padding-right: 10px;
+}
+
+.site-Title {
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 24pt;
+  color: #ffffff;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.site-Title:hover {
+    color: white;
+}
+
+@media screen and (max-width: 700px) {
+    .headercontainer {
+        min-height: 100px;
+        margin-left: 20px;
+    }
+}
+
+.github-head {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+@media screen and (max-width: 700px) {
+    .github-head {
+        display: none;
+    }
+}
+
+.linkedin {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 60px;
+    height: 51px;
+    scale: 90%;
+}
+
+@media screen and (max-width: 700px) {
+    .linkedin {
+        display: none;
+    }
+}
+
+.middle {
+  min-height: 430px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  border-radius: 1%;
+}
+
+.middle-container {
+    min-height: 400px;
+    margin: auto;
+    max-width: 800px;
+    padding: 5px;
+    width: 96%;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80px;
+  width: 100%;
+  text-align: center;
+  background-color: #d3cdb9;
+}
+
+.footer > .margin {
+    margin-top: 20px;
+}
