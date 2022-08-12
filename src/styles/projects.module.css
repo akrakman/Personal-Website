@@ -1,8 +1,9 @@
 .project-container {
-    /*grid-template-columns: repeat(2, 50%);*/
     margin-left: auto;
     margin-right: auto;
     display: inline;
+    margin-top: 70px;
+    margin-bottom: 30px;
 }
   
   @media screen and (max-width: 800px) {
