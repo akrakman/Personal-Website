@@ -1,21 +1,24 @@
-import { Link, graphql } from "gatsby"
-import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import * as React from "react"
 import Layout from "../components/Layout"
+import 'bootstrap/dist/css/bootstrap.min.css'
+import '../styles/global.css'
+import { Link, graphql } from "gatsby"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import {
   aboutContainer,
   biocontainer,
   imagecontainer,
   bioImage
 } from '../styles/about.module.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
 
+/*
 <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
   integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
   crossorigin="anonymous"
 />
+*/
 
 const Home = ({data}) => {
   const image = getImage(data.file);

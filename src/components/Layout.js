@@ -1,7 +1,9 @@
+import * as React from "react"
+import Navbar from './Nav'
 import { graphql, useStaticQuery } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
-import React from 'react'
 import '../styles/global.css'
+import '../styles/middlestyle.css'
 import {
   container,
   footer,
@@ -15,8 +17,6 @@ import {
   middleContainer,
   margin
 } from '../styles/layout.module.css'
-import '../styles/middlestyle.css'
-import Navbar from './Nav'
 
 export default function Layout({pageTitle, children }) {
   const data = useStaticQuery(graphql`

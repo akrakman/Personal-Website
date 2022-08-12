@@ -1,6 +1,7 @@
 import * as React from 'react'
 import Layout from "../components/Layout"
-import { GatsbyImage, getImage } from "gatsby-plugin-image";
+import '../styles/global.css'
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { Row, Col, Container, Button } from "react-bootstrap"
 import { graphql } from 'gatsby';
 import {
