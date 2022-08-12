@@ -1,5 +1,6 @@
+import * as React from "react"
 import { GatsbyImage } from 'gatsby-plugin-image'
-import React from 'react'
+import "../styles/global.css"
 import {
     cardContainer,
     card,
@@ -8,7 +9,6 @@ import {
     projectTitle,
     projectDescription
 } from "../styles/card.module.css"
-import "../styles/global.css"
 
 const Projectcard = ({title, image, link, description, external}) => {
   return (
