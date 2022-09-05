@@ -35,11 +35,9 @@ export default function Layout({pageTitle, children }) {
           <header className={headercontainer}>
               <div className={left}>
                 <a className={siteTitle} href='/'>{data.site.siteMetadata.myName}</a>
-                {/*GitHub-Mark-Light-120px-plus.png*/}
                 <a href='https://github.com/akrakman/' target='_blank' rel='noreferrer'>
                   <StaticImage className={`${githubHead} zoom`} src="../images/GitHub-64px.png" alt="GitHub"/>
                 </a>
-                {/*LI-In-Bug.png*/}
                 <a href='https://www.linkedin.com/in/krakman/' target='_blank' rel='noreferrer'>
                   <StaticImage className={`${linkedin} zoom`} src="../images/LI-In-Bug-Light.png" alt="Linkedin"/>
                 </a>

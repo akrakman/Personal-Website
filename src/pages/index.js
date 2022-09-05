@@ -32,11 +32,10 @@ const Home = ({data}) => {
           <br />
           <br />
             Along with doing <Link to="/projects">projects</Link>, I enjoy playing
-            trombone and hiking. Currently, I'm a frontend developer for ACM; we're rebuilding
-            the entire site to fit the community's needs, and I'll work on the backend in the future.
+            trombone, which I've played for about eight years, and I also like to hike.
             <br />
             <br />
-            Thank you for stopping by! I'm looking for SWE opportunities in the future.
+            Thank you for visiting the website.
           </p>
         </div>
         <div className={imagecontainer}>
